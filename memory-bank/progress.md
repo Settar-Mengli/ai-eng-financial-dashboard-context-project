@@ -10,6 +10,17 @@
 - Initialized repository rules under `.agents/rules`.
 - Initialized project memory under `memory-bank`.
 
+## Project 3 Progress
+
+- Checked for `accessibility` and `vercel-react-best-practices` skills through project-supported local methods; neither was found.
+- Confirmed `skill-creator` was available and used it to create `.agents/skills/financial-dashboard-quality/SKILL.md`.
+- Applied targeted frontend quality improvements for accessibility and React safety: fetch cleanup, error announcement semantics, decorative icon handling, chart labels, and loading busy states.
+- Project 3 files changed: `.agents/skills/financial-dashboard-quality/SKILL.md`, `frontend/src/App.tsx`, `frontend/src/components/dashboard/dashboard-header.tsx`, `frontend/src/components/dashboard/kpi-card.tsx`, `frontend/src/components/dashboard/income-outcome-chart.tsx`, `frontend/src/components/dashboard/profit-percent-chart.tsx`, and `memory-bank/progress.md`.
+- Validation passed: `npm run lint`; `npm run test` with 5 tests passed; `npm run build`.
+- `npm run build` reported a Vite chunk-size warning; this is non-blocking.
+- `npm audit` reported 2 moderate vulnerabilities; these were not fixed because dependency changes are outside Project 3 scope.
+- No backend, Docker, package, dependency, or Project 2 spec files were intentionally changed.
+
 ## Suggested Commit Phases
 
 1. `docs: add codebase handover summary`
